@@ -1,9 +1,6 @@
 
-Quick Start (Google Colab - Easiest!)
-Step 1: Open the notebook
-Click this Link (or paste in browser): https://drive.google.com/file/d/13JmIn0gpnyJetr7S4K9n-HMDCilWIKFS/view?usp=sharing
-Then press open with olab on top right 
- 
+Quick Start (use= Google Colab - Easiest!)
+
 Dowload the data mentioned below 
  Data You Need
 1. MRI Brain Scans (Required)
