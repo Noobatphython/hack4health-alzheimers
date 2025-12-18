@@ -31,21 +31,30 @@ MRI Model (ResNet50)
 Brain Scan Image → ResNet50 Neural Network → Diagnosis
                    (pretrained on 14M images)
 
-Output: One of 4 classes
+## 🧠 Model Output
+
+**One of 4 classes:**
 ├── 0: Non-Demented
-├── 1: Mild Demented  
+├── 1: Mild Demented
 ├── 2: Moderate Demented
 └── 3: Very Mild Demented
-Clinical Model (MLP)
-32 Patient Features → Neural Network → Diagnosis
-│
+
+Code
+
+---
+
+## ⚙️ Clinical Model (MLP)
+
+**Pipeline:**  
+`32 Patient Features → Neural Network → Diagnosis`
+
+**Features include:**
 ├── Age, Gender, Education
 ├── BMI, Smoking, Exercise
 ├── Family History, Diabetes
 ├── MMSE Score, Memory Complaints
 └── ... and more
 
-Output: Alzheimer's Yes/No
 
 
  Limitations
